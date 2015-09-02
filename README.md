@@ -12,10 +12,9 @@ A connectable broadcaster sample application compatible with Google Eddystone pr
 * The application project files and the stack project files for CCS environment are located in SimpleEddystoneBeacon\CC26xx\CCS\SimpleEddystoneBeacon and SimpleEddystoneBeacon\CC26xx\CCS\SimpleEddystoneBeacon respectively.
 * The workspace file encompassing the application prject and the stack project for IAR environment is located in SimpleEddystoneBeacon\CC26xx\IAR.
 * CCS 6.1 or IAR 7.40.2 can build the projects.
-* The default install directory of the BLE-Stack 2.1 is C:\ti\simplelink\ble_cc26xx_2_01_00_44423.
-  If it is installed in a different path, the value of TI_BLE_SDK variable should be changed accordingly. With CCS, TI_BLE_SDK is found at Properties->Resource->Linked Resources->Path Variables when SimpleEddystoneBeacon project is opened. For IAR, TI_BLE_SDK is found in SimpleEddystoneBeacon.custom_argvars.
-* The folders 'Profiles' and 'SimpleEddystoneBeacon' in the repository should be copied into TI_BLE_SDK\Projects\ble\.
-* SensorTag configurations are combined with OAD as well. Before building SensorTag configurations, read *CC2640 BLE OAD User's Guide*, especially Chapter 9 carefully. *CC2640 BLE OAD User's Guide* can be found at TI_BLE_SDK\Documents.
+* The default install directory of the BLE-Stack 2.1 is C:\ti\simplelink\ble_cc26xx_2_01_00_44423 and that is assumed to be \<Install Dir\> hereafter.
+* The folders 'Profiles' and 'SimpleEddystoneBeacon' in the repository should be copied into \<Install Dir\>\Projects\ble\.
+* SensorTag configurations are combined with OAD as well. Before building SensorTag configurations, read *CC2640 BLE OAD User's Guide*, especially Chapter 9 carefully. *CC2640 BLE OAD User's Guide* can be found at \<Install Dir\>\Documents.
 
 ## Operations and Usages
 * The system will start with UID frame advertising.
